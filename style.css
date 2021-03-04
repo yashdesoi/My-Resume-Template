@@ -1,0 +1,163 @@
+:root {
+    font-family: 'EB Garamond', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 20px 15px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+/* Upper halve */
+.upper-halve {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bio */
+.bio {
+    width: 60%;
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.role {
+    font-size: 1.3rem;
+}
+
+/* Contacts */
+.contacts {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts > * {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-top: 3px;
+}
+
+img.icon {
+    width: 15.5px;
+}
+
+.contacts > * > .data {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 2px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-print-color-adjust: exact;
+}
+
+/* Lower halve */
+.lower-halve {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+    width: 48%;
+}
+
+.heading {
+    font-size: 1.8rem;
+}
+
+.sub-heading {
+    line-height: 1.3rem;
+}
+
+/* Technical skills */
+.technical-skills span {
+    font-weight: bold;
+}
+
+/* Education */
+.score-link {
+    font-style: italic;
+    text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.education > div:nth-of-type(2),
+.education > div:nth-of-type(3) {
+    margin: 7px 0;
+}
+
+.college {
+    display: flex;
+    justify-content: space-between;
+}
+
+.college .year {
+    margin-right: 30px;
+}
+
+/* Activities & Societies */
+.activities-societies {
+    margin-top: 15px;
+}
+
+.activities-societies span {
+    font-weight: bold;
+}
+
+/* Projects */
+.projects {
+    margin-top: 15px;
+}
+
+.projects > div:nth-of-type(2),
+.projects > div:nth-of-type(3),
+.projects > div:nth-of-type(4) {
+    margin: 7px 0;
+}
+
+/* Research & Publications */
+.research-publications {
+    margin-top: 15px;
+}
+
+/* Certifications */
+.certifications {
+    margin-top: 15px;
+}
+
+.certifications .institute {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certification .date-issued {
+    margin-right: 30px;
+}
+
+
+
